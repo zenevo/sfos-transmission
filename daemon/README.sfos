@@ -1,0 +1,11 @@
+Transmission 3.00 for Sailfish OS (dumpling)
+
+Daemon: transmission-daemon, RPC at 127.0.0.1:9091 (no authentication).
+CLI:    transmission-remote, transmission-cli.
+
+Enable the user service:
+  systemctl --user daemon-reload
+  systemctl --user enable --now transmission-daemon
+
+Then connect Tremotesf (or any Transmission RPC client) to 127.0.0.1:9091.
+Download directory: ~/Downloads

@@ -1,0 +1,14 @@
+RPMS/
+BUILD/
+BUILDROOT/
+SOURCES/
+SRPMS/
+installroot/
+.mb2/
+*.o
+*.log
+ui/Makefile
+ui/*.o
+ui/moc_*
+ui/.qmake.stash
+ui/transmission-daemon-ui

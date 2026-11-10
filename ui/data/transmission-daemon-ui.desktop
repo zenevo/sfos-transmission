@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Transmission Daemon
+Icon=transmission-daemon-ui
+Exec=transmission-daemon-ui
+X-Nemo-Application-Type=silica-qt5
+
+[X-Sailjail]
+Sandboxing=Disabled

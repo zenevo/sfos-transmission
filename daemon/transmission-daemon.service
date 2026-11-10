@@ -1,0 +1,8 @@
+[Unit]
+Description=Transmission BitTorrent daemon
+[Service]
+ExecStart=/usr/bin/transmission-daemon -f -g %h/.config/transmission-daemon -w %h/Downloads
+Restart=on-failure
+RestartSec=5
+[Install]
+WantedBy=default.target
